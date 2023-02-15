@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex e Grid</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1>Galeria <span>Astral</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis alias sed praesentium, dolores distinctio sit accusamus nisi inventore similique ipsa quia eum voluptatibus sint cupiditate libero numquam unde officia odit?</p>
+    </header>
+    
+
+    <main class="container">
+        <section class="card">
+            <img src="https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_960_720.jpg" alt="space1">
+            <div>
+                <h3>Galaxia 1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo reiciendis veniam corporis minima blanditiis recusandae sunt consequuntur. Assumenda animi ipsam, atque doloribus soluta ullam sed ipsa aspernatur dolore officiis minus?</p>
+
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-left">
+            <img src="https://cdn.pixabay.com/photo/2012/08/25/22/22/saturn-54999_960_720.jpg" alt="space2">
+            <div>
+                <h3>Galaxia 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius perspiciatis dolores soluta veritatis esse saepe neque nostrum molestiae dolorem beatae velit, quaerat hic, id inventore sequi cupiditate consectetur eos.</p>
+                <a href="#" class="btn">Saiba mais</a>
+
+            </div>
+        </section>
+        <section class="card" data-aos="fade-right">
+            <img src="https://cdn.pixabay.com/photo/2016/07/19/04/40/moon-1527501_960_720.jpg" alt="space3">
+            <div>
+                <h3>Galaxia 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius perspiciatis dolores soluta veritatis esse saepe neque nostrum molestiae dolorem beatae velit, quaerat hic, id inventore sequi cupiditate consectetur eos.</p>
+                <a href="#" class="btn">Saiba mais</a>
+
+            </div>
+        </section>
+    </main>
+
+    <div data-aos="fade-up" class="galeria">
+        <div style="background-image: url('https://picsum.photos/1920/1080?random1');"></div>
+        <div style="background-image: url('https://picsum.photos/1920/1080?random2');"></div>
+        <div style="background-image: url('https://picsum.photos/1920/1080?random3');"></div>
+        <div style="background-image: url('https://picsum.photos/1920/1080?random4');"></div>
+        <div style="background-image: url('https://picsum.photos/1920/1080?random5');"></div>
+
+    </div>
+
+
+    <footer>
+        <p>Galeria astral by <a href="https://github.com/Gabetres"><span class="name">&copyGabriel Tres</span></a></p>
+    </footer>
+
+    <script>
+        AOS.init();
+      </script>
+
+</body>
+</html>
